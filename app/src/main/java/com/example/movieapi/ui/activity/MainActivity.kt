@@ -1,7 +1,7 @@
-package com.example.movieapi
+package com.example.movieapi.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
+import com.example.movieapi.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

@@ -1,6 +1,7 @@
-package com.example.movieapi
+package com.example.movieapi.di
 
 import com.example.movieapi.BuildConfig.BASE_URL
+import com.example.movieapi.data.remote.ApiService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

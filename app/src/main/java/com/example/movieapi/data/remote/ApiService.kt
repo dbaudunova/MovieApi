@@ -1,5 +1,6 @@
-package com.example.movieapi
+package com.example.movieapi.data.remote
 
+import com.example.movieapi.data.remote.model.Movie
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query

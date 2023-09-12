@@ -1,8 +1,10 @@
-package com.example.movieapi
+package com.example.movieapi.repository
 
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import com.example.movieapi.BuildConfig.API_KEY
+import com.example.movieapi.data.remote.ApiService
+import com.example.movieapi.data.remote.model.Movie
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

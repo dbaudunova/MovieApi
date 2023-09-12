@@ -1,4 +1,4 @@
-package com.example.movieapi
+package com.example.movieapi.data.remote.model
 
 import java.io.Serializable
 

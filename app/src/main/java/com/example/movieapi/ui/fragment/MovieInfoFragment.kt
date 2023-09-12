@@ -1,4 +1,4 @@
-package com.example.movieapi
+package com.example.movieapi.ui.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.bumptech.glide.Glide
+import com.example.movieapi.data.remote.model.Movie
 import com.example.movieapi.databinding.FragmentMovieInfoBinding
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -17,7 +18,7 @@ class MovieInfoFragment : Fragment() {
   override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentMovieInfoBinding.inflate(inflater, container, false)
         return binding.root
     }

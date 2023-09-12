@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     android:orientation="vertical"
-    tools:context=".MovieSearchFragment">
+    tools:context=".ui.fragment.MovieSearchFragment">
 
     <TextView
         style="@style/text_font"
